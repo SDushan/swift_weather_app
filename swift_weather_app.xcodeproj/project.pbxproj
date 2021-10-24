@@ -14,6 +14,7 @@
 		50EAFFDC27249801006C1094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EAFFDA27249801006C1094 /* LaunchScreen.storyboard */; };
 		50EAFFE727252C47006C1094 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAFFE627252C47006C1094 /* WeatherViewController.swift */; };
 		50EAFFE92725A65F006C1094 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAFFE82725A65F006C1094 /* WeatherManager.swift */; };
+		50EAFFEB2725FDD6006C1094 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAFFEA2725FDD6006C1094 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		50EAFFDD27249801006C1094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50EAFFE627252C47006C1094 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		50EAFFE82725A65F006C1094 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		50EAFFEA2725FDD6006C1094 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				50EAFFE82725A65F006C1094 /* WeatherManager.swift */,
+				50EAFFEA2725FDD6006C1094 /* WeatherData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50EAFFD027249800006C1094 /* AppDelegate.swift in Sources */,
+				50EAFFEB2725FDD6006C1094 /* WeatherData.swift in Sources */,
 				50EAFFE727252C47006C1094 /* WeatherViewController.swift in Sources */,
 				50EAFFE92725A65F006C1094 /* WeatherManager.swift in Sources */,
 				50EAFFD227249800006C1094 /* SceneDelegate.swift in Sources */,
