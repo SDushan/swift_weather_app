@@ -12,19 +12,19 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var conditionImageView: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var cityLabel: UILabel!
-    @IBOutlet weak var searchTextFeild: UITextField!
+    @IBOutlet weak var searchTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchTextFeild.delegate = self
+        searchTextField.delegate = self
     }
     
     @IBAction func searchPressed(_ sender: Any) {
-        searchTextFeild.endEditing(true)
+        searchTextField.endEditing(true)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        searchTextFeild.endEditing(true)
+        searchTextField.endEditing(true)
         return true
     }
     
@@ -38,6 +38,6 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
-        searchTextFeild.text = ""
+        searchTextField.text = ""
     }
 }
