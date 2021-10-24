@@ -50,7 +50,7 @@
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
                                                 <connections>
-                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7hX-4M-FLz"/>
+                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4V-7G-b2x"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -114,7 +114,7 @@
                     <connections>
                         <outlet property="cityLabel" destination="CWP-r8-Jsy" id="8cQ-3l-ufV"/>
                         <outlet property="conditionImageView" destination="mYn-vV-MBC" id="gpD-FU-YB0"/>
-                        <outlet property="searchTextField" destination="2eh-wL-W34" id="MFu-kE-vD8"/>
+                        <outlet property="searchTextFeild" destination="2eh-wL-W34" id="nfn-8n-1E7"/>
                         <outlet property="temperatureLabel" destination="w9o-tW-03D" id="mF4-vV-JxK"/>
                     </connections>
                 </viewController>
