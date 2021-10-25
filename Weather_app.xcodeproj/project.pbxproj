@@ -62,9 +62,9 @@
 		50EAFFCE27249800006C1094 /* Weather_app */ = {
 			isa = PBXGroup;
 			children = (
-				50EAFFE5272527C0006C1094 /* Controller */,
-				50EAFFE4272527B8006C1094 /* View */,
 				50EAFFE3272527B1006C1094 /* Model */,
+				50EAFFE4272527B8006C1094 /* View */,
+				50EAFFE5272527C0006C1094 /* Controller */,
 				50EAFFCF27249800006C1094 /* AppDelegate.swift */,
 				50EAFFD127249800006C1094 /* SceneDelegate.swift */,
 				50EAFFD827249801006C1094 /* Assets.xcassets */,

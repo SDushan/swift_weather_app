@@ -8,7 +8,7 @@
 import Foundation
 
 protocol WeatherManagerDelegate {
-    func didUpdateWeather(weather: WeatherModel)
+    func didUpdateWeather(_ weatherManager: WeatherManager, weather: WeatherModel)
 }
 
 struct WeatherManager {
@@ -31,8 +31,8 @@ struct WeatherManager {
                 }
                 
                 if let safeDate = data {
-                    if let weather = self.parseJSON(weatherData: safeDate) {
-                        self.delegate?.didUpdateWeather(weather: weather)
+                    if let weather = self.parseJSON(safeDate) {
+                        self.delegate?.didUpdateWeather(self, weather: weather)
                     }
                 }
             }
@@ -40,7 +40,7 @@ struct WeatherManager {
         }
     }
     
-    func parseJSON(weatherData: Data) -> WeatherModel? {
+    func parseJSON(_ weatherData: Data) -> WeatherModel? {
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(WeatherData.self, from: weatherData)
