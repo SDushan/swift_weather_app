@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50EAFFCC27249800006C1094 /* swift_weather_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_weather_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EAFFCC27249800006C1094 /* Weather_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EAFFCF27249800006C1094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50EAFFD127249800006C1094 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		50EAFFD627249800006C1094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		50EAFFC327249800006C1094 = {
 			isa = PBXGroup;
 			children = (
-				50EAFFCE27249800006C1094 /* swift_weather_app */,
+				50EAFFCE27249800006C1094 /* Weather_app */,
 				50EAFFCD27249800006C1094 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		50EAFFCD27249800006C1094 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50EAFFCC27249800006C1094 /* swift_weather_app.app */,
+				50EAFFCC27249800006C1094 /* Weather_app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50EAFFCE27249800006C1094 /* swift_weather_app */ = {
+		50EAFFCE27249800006C1094 /* Weather_app */ = {
 			isa = PBXGroup;
 			children = (
 				50EAFFE5272527C0006C1094 /* Controller */,
@@ -69,7 +69,7 @@
 				50EAFFDA27249801006C1094 /* LaunchScreen.storyboard */,
 				50EAFFDD27249801006C1094 /* Info.plist */,
 			);
-			path = swift_weather_app;
+			path = Weather_app;
 			sourceTree = "<group>";
 		};
 		50EAFFE3272527B1006C1094 /* Model */ = {
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50EAFFCB27249800006C1094 /* swift_weather_app */ = {
+		50EAFFCB27249800006C1094 /* Weather_app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50EAFFE027249801006C1094 /* Build configuration list for PBXNativeTarget "swift_weather_app" */;
+			buildConfigurationList = 50EAFFE027249801006C1094 /* Build configuration list for PBXNativeTarget "Weather_app" */;
 			buildPhases = (
 				50EAFFC827249800006C1094 /* Sources */,
 				50EAFFC927249800006C1094 /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = swift_weather_app;
+			name = Weather_app;
 			productName = swift_weather_app;
-			productReference = 50EAFFCC27249800006C1094 /* swift_weather_app.app */;
+			productReference = 50EAFFCC27249800006C1094 /* Weather_app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 50EAFFC727249800006C1094 /* Build configuration list for PBXProject "swift_weather_app" */;
+			buildConfigurationList = 50EAFFC727249800006C1094 /* Build configuration list for PBXProject "Weather_app" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50EAFFCB27249800006C1094 /* swift_weather_app */,
+				50EAFFCB27249800006C1094 /* Weather_app */,
 			);
 		};
 /* End PBXProject section */
@@ -320,12 +320,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGHCMYT3QP;
-				INFOPLIST_FILE = swift_weather_app/Info.plist;
+				INFOPLIST_FILE = Weather_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dushan.swift-weather-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dushan.weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,12 +339,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGHCMYT3QP;
-				INFOPLIST_FILE = swift_weather_app/Info.plist;
+				INFOPLIST_FILE = Weather_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dushan.swift-weather-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dushan.weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50EAFFC727249800006C1094 /* Build configuration list for PBXProject "swift_weather_app" */ = {
+		50EAFFC727249800006C1094 /* Build configuration list for PBXProject "Weather_app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50EAFFDE27249801006C1094 /* Debug */,
@@ -363,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50EAFFE027249801006C1094 /* Build configuration list for PBXNativeTarget "swift_weather_app" */ = {
+		50EAFFE027249801006C1094 /* Build configuration list for PBXNativeTarget "Weather_app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50EAFFE127249801006C1094 /* Debug */,
